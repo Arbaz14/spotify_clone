@@ -70,7 +70,7 @@ ul li {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     padding: 10px;
-    background: url(/1.spotify_clone/images/bg.jpg) left center no-repeat;
+    background: url(1.spotify_clone/images/bg.jpg) left center no-repeat;
 }
 
 #myprogressbar {
@@ -137,12 +137,12 @@ ul li {
     }
 
     .container {
-        background: url(/1.spotify_clone/images/bg.jpg) center center no-repeat;
+        background: url(1.spotify_clone/images/bg.jpg) center center no-repeat;
     }
 }
 
 @media only screen and (max-width: 1302px) {
     .container {
-        background: url(/1.spotify_clone/images/bg.jpg) center center no-repeat;
+        background: url(1.spotify_clone/images/bg.jpg) center center no-repeat;
     }
 }
