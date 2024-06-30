@@ -7,16 +7,16 @@ let songitom = document.querySelectorAll(".songitom")
 let audioelement = new Audio()
 let icon = document.querySelectorAll(".ico")
 let songs = [
-    { songName: "salam-e-ishq", filepath: "../songs/1.mp3", coverpath: "../covers/1.jpg" },
-    { songName: "salam-e-ishq", filepath: "../songs/2.mp3", coverpath: "../covers/2.jpg" },
-    { songName: "salam-e-ishq", filepath: "../songs/3.mp3", coverpath: "../covers/3.jpg" },
-    { songName: "salam-e-ishq", filepath: "../songs/4.mp3", coverpath: "../covers/4.jpg" },
-    { songName: "salam-e-ishq", filepath: "../songs/5.mp3", coverpath: "../covers/5.jpg" },
-    { songName: "salam-e-ishq", filepath: "../songs/6.mp3", coverpath: "../covers/6.jpg" },
-    { songName: "salam-e-ishq", filepath: "../songs/7.mp3", coverpath: "../covers/7.jpg" },
-    { songName: "salam-e-ishq", filepath: "../songs/8.mp3", coverpath: "../covers/8.jpg" },
-    { songName: "salam-e-ishq", filepath: "../songs/9.mp3", coverpath: "../covers/9.jpg" },
-    { songName: "salam-e-ishq", filepath: "../songs/10.mp3", coverpath: "../covers/10.jpg" },
+    { songName: "salam-e-ishq", filepath: "1.spotify_clone/songs/1.mp3", coverpath: "1.spotify_clone/covers/1.jpg" },
+    { songName: "salam-e-ishq", filepath: "1.spotify_clone/songs/2.mp3", coverpath: "1.spotify_clone/covers/2.jpg" },
+    { songName: "salam-e-ishq", filepath: "1.spotify_clone/songs/3.mp3", coverpath: "1.spotify_clone/covers/3.jpg" },
+    { songName: "salam-e-ishq", filepath: "1.spotify_clone/songs/4.mp3", coverpath: "1.spotify_clone/covers/4.jpg" },
+    { songName: "salam-e-ishq", filepath: "1.spotify_clone/songs/5.mp3", coverpath: "1.spotify_clone/covers/5.jpg" },
+    { songName: "salam-e-ishq", filepath: "1.spotify_clone/songs/6.mp3", coverpath: "1.spotify_clone/covers/6.jpg" },
+    { songName: "salam-e-ishq", filepath: "1.spotify_clone/songs/7.mp3", coverpath: "1.spotify_clone/covers/7.jpg" },
+    { songName: "salam-e-ishq", filepath: "1.spotify_clone/songs/8.mp3", coverpath: "1.spotify_clone/covers/8.jpg" },
+    { songName: "salam-e-ishq", filepath: "1.spotify_clone/songs/9.mp3", coverpath: "1.spotify_clone/covers/9.jpg" },
+    { songName: "salam-e-ishq", filepath: "1.spotify_clone/songs/10.mp3", coverpath: "1.spotify_clone/covers/10.jpg" },
 ]
 let previous = document.querySelector(".ri-arrow-drop-left-line")
 let next = document.querySelector(".ri-arrow-drop-right-line")
