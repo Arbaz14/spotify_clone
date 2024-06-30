@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: papayawhip;
+}
+
+nav {
+    font-family: "Poppins", sans-serif;
+
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    color: white;
+}
+
+.brand img {
+    height: 50px;
+    padding-right: 5px;
+}
+
+ul li {
+    padding: 4px;
+    font-weight: bold;
+}
+
+#spotif {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bottom {
+    background-color: black;
+    height: 150px;
+    width: 100%;
+    color: white;
+    position: sticky;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.container {
+    min-height: 75vh;
+    background-color: gray;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    width: 80%;
+    margin: 10px 10%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 10px;
+    background: url(/1.spotify_clone/images/bg.jpg) left center no-repeat;
+}
+
+#myprogressbar {
+    width: 80vw;
+    height: 6px;
+
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.songitom {
+    height: 3rem;
+    display: flex;
+    background-color: wheat;
+    color: black;
+    width: 30%;
+    margin: 12px;
+    border-radius: 8rem;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size:90%;
+    -webkit-border-radius: 8rem;
+    -moz-border-radius: 8rem;
+    -ms-border-radius: 8rem;
+    -o-border-radius: 8rem;
+}
+
+.songitom img {
+    height: 100%;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.songinfo{
+    display: flex;
+    justify-content: center;
+    align-items: end; 
+}
+.songinfo img{
+     opacity: 0;
+     transition: opacity 1s ease-in;
+     -webkit-transition: opacity 1s ease-in;
+     -moz-transition: opacity 1s ease-in;
+     -ms-transition: opacity 1s ease-in;
+     -o-transition: opacity 1s ease-in;
+}
+#myprogressbar{
+    cursor: pointer !important;
+}
