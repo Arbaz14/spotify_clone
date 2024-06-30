@@ -96,7 +96,7 @@ ul li {
     border-radius: 8rem;
     justify-content: space-evenly;
     align-items: center;
-    font-size:90%;
+    font-size: 90%;
     -webkit-border-radius: 8rem;
     -moz-border-radius: 8rem;
     -ms-border-radius: 8rem;
@@ -111,19 +111,38 @@ ul li {
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
 }
-.songinfo{
+
+.songinfo {
     display: flex;
     justify-content: center;
-    align-items: end; 
+    align-items: end;
 }
-.songinfo img{
-     opacity: 0;
-     transition: opacity 1s ease-in;
-     -webkit-transition: opacity 1s ease-in;
-     -moz-transition: opacity 1s ease-in;
-     -ms-transition: opacity 1s ease-in;
-     -o-transition: opacity 1s ease-in;
+
+.songinfo img {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+    -webkit-transition: opacity 1s ease-in;
+    -moz-transition: opacity 1s ease-in;
+    -ms-transition: opacity 1s ease-in;
+    -o-transition: opacity 1s ease-in;
 }
-#myprogressbar{
+
+#myprogressbar {
     cursor: pointer !important;
+}
+
+@media only screen and (max-width: 813px) {
+    .songitom {
+        width: 60%;
+    }
+
+    .container {
+        background: url(/1.spotify_clone/images/bg.jpg) center center no-repeat;
+    }
+}
+
+@media only screen and (max-width: 1302px) {
+    .container {
+        background: url(/1.spotify_clone/images/bg.jpg) center center no-repeat;
+    }
 }
